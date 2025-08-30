@@ -1,0 +1,426 @@
+[
+  {
+    "name": "Aloevera",
+    "scientific_name": "Aloe barbadensis",
+    "family": "Asphodelaceae",
+    "other_names": ["Ghrita-kumari"],
+    "properties": [
+      "Anti-inflammatory",
+      "Antibacterial",
+      "Skin healing",
+      "A succulent plant known for its soothing gel that aids in skin healing, reduces inflammation, and has mild antibacterial effects."
+    ],
+    "uses": ["Burns", "Wounds", "Skin care"]
+  },
+  {
+    "name": "Amla",
+    "scientific_name": "Phyllanthus emblica",
+    "family": "Phyllanthaceae",
+    "other_names": ["Indian Gooseberry"],
+    "properties": [
+      "Rich in Vitamin C",
+      "Antioxidant",
+      "Boosts immunity",
+      "A vitamin C-rich fruit that boosts immunity, supports digestion, and has powerful antioxidant properties."
+    ],
+    "uses": ["Hair care", "Digestive health", "Immunity booster"]
+  },
+  {
+    "name": "Amruthaballi",
+    "scientific_name": "Tinospora cordifolia",
+    "family": "Menispermaceae",
+    "other_names": ["Guduchi", "Giloy"],
+    "properties": [
+      "Immunomodulatory",
+      "Anti-inflammatory",
+      "Antipyretic",
+      "A medicinal vine used in Ayurveda for enhancing immunity, reducing fever, and fighting inflammation."
+    ],
+    "uses": ["Fever", "Immune health", "Detoxification"]
+  },
+  {
+    "name": "Arali",
+    "scientific_name": "Nerium oleander",
+    "family": "Apocynaceae",
+    "other_names": ["Oleander"],
+    "properties": [
+      "Ornamental plant",
+      "Toxic if ingested",
+      "Contains cardiac glycosides",
+      "A highly toxic ornamental shrub with beautiful flowers, containing cardiac glycosides with potential medicinal applications under strict supervision."
+    ],
+    "uses": ["Ornamental purposes"]
+  },
+  {
+    "name": "Bamboo",
+    "scientific_name": "Bambusoideae",
+    "family": "Poaceae",
+    "other_names": ["Bans"],
+    "properties": [
+      "Fast-growing grass",
+      "Rich in silica",
+      "Anti-inflammatory",
+      "A versatile, fast-growing grass with medicinal shoots, rich in silica and used for bone and joint health."
+    ],
+    "uses": ["Construction", "Culinary uses", "Joint health"]
+  },
+  {
+    "name": "Beans",
+    "scientific_name": "Phaseolus vulgaris",
+    "family": "Fabaceae",
+    "other_names": ["Common bean"],
+    "properties": [
+      "Rich in protein",
+      "High fiber",
+      "Supports heart health",
+      "An edible legume rich in protein and fiber, beneficial for heart health and digestion."
+    ],
+    "uses": ["Culinary uses", "Nutritional supplement"]
+  },
+  {
+    "name": "Betel",
+    "scientific_name": "Piper betle",
+    "family": "Piperaceae",
+    "other_names": ["Paan"],
+    "properties": [
+      "Antimicrobial",
+      "Digestive aid",
+      "Antioxidant",
+      "A heart-shaped leaf used traditionally for chewing, aiding digestion, and having antimicrobial benefits."
+    ],
+    "uses": ["Mouth freshener", "Digestive aid"]
+  },
+  {
+    "name": "Bhrami",
+    "scientific_name": "Bacopa monnieri",
+    "family": "Plantaginaceae",
+    "other_names": ["Water Hyssop"],
+    "properties": [
+      "Memory enhancer",
+      "Anti-anxiety",
+      "Antioxidant",
+      "A creeping herb known for enhancing memory, reducing anxiety, and protecting brain function."
+    ],
+    "uses": ["Memory support", "Anxiety relief"]
+  },
+  {
+    "name": "Castor",
+    "scientific_name": "Ricinus communis",
+    "family": "Euphorbiaceae",
+    "other_names": ["Eranda"],
+    "properties": [
+      "Oil-rich seeds used for their laxative effect, anti-inflammatory properties, and skin health benefits."
+    ],
+    "uses": ["Laxative", "Hair oil", "Skin health"]
+  },
+  {
+    "name": "Citron lime (herelikai)",
+    "scientific_name": "Citrus medica",
+    "family": "Rutaceae",
+    "other_names": ["Herelikai"],
+    "properties": [
+      "A citrus fruit valued for its digestive benefits, vitamin C content, and aromatic properties."
+    ],
+    "uses": ["Digestive aid", "Flavoring", "Vitamin C source"]
+  },
+  {
+    "name": "Coriender",
+    "scientific_name": "Coriandrum sativum",
+    "family": "Apiaceae",
+    "other_names": ["Dhania"],
+    "properties": [
+      "An aromatic herb with antioxidant, digestive, and anti-inflammatory benefits."
+    ],
+    "uses": ["Flavoring", "Digestive aid", "Anti-inflammatory"]
+  },
+  {
+    "name": "Curry",
+    "scientific_name": "Murraya koenigii",
+    "family": "Rutaceae",
+    "other_names": ["Kadi Patta"],
+    "properties": [
+      "Fragrant leaves rich in antioxidants, improving digestion and supporting heart health."
+    ],
+    "uses": ["Flavoring", "Digestive health", "Heart health"]
+  },
+  {
+    "name": "Drumstick",
+    "scientific_name": "Moringa oleifera",
+    "family": "Moringaceae",
+    "other_names": ["Sahjan"],
+    "properties": [
+      "A nutrient-rich tree whose leaves, pods, and flowers support immunity, reduce inflammation, and boost energy."
+    ],
+    "uses": ["Nutritional supplement", "Anti-inflammatory", "Immunity booster"]
+  },
+  {
+    "name": "Fenugreek",
+    "scientific_name": "Trigonella foenum-graecum",
+    "family": "Fabaceae",
+    "other_names": ["Methi"],
+    "properties": [
+      "A medicinal seed that helps regulate blood sugar, improves digestion, and boosts lactation."
+    ],
+    "uses": ["Blood sugar control", "Digestive health", "Lactation support"]
+  },
+  {
+    "name": "Gasagase",
+    "scientific_name": "Papaver somniferum",
+    "family": "Papaveraceae",
+    "other_names": ["Poppy seeds"],
+    "properties": [
+      "Small seeds with calming effects, rich in minerals, and aiding sleep."
+    ],
+    "uses": ["Sleep aid", "Nutritional supplement", "Pain relief"]
+  },
+  {
+    "name": "Guava",
+    "scientific_name": "Psidium guajava",
+    "family": "Myrtaceae",
+    "other_names": ["Amrud"],
+    "properties": [
+      "A tropical fruit high in vitamin C, fiber, and antioxidants, supporting immunity and digestion."
+    ],
+    "uses": ["Immunity booster", "Digestive health", "Skin health"]
+  },
+  {
+    "name": "Hibiscus",
+    "scientific_name": "Hibiscus rosa-sinensis",
+    "family": "Malvaceae",
+    "other_names": ["Gudhal"],
+    "properties": [
+      "A flowering plant used for hair care, heart health, and blood pressure regulation."
+    ],
+    "uses": ["Hair care", "Heart health", "Blood pressure control"]
+  },
+  {
+    "name": "Insulin",
+    "scientific_name": "Costus igneus",
+    "family": "Costaceae",
+    "other_names": ["Insulin plant"],
+    "properties": [
+      "A medicinal plant known for helping regulate blood sugar levels."
+    ],
+    "uses": ["Blood sugar control", "Diabetes management"]
+  },
+  {
+    "name": "Jackfruit",
+    "scientific_name": "Artocarpus heterophyllus",
+    "family": "Moraceae",
+    "other_names": ["Kathal"],
+    "properties": [
+      "A tropical fruit rich in fiber, vitamins, and antioxidants, supporting digestion and heart health."
+    ],
+    "uses": ["Culinary uses", "Digestive health", "Heart health"]
+  },
+  {
+    "name": "Jasmine",
+    "scientific_name": "Jasminum officinale",
+    "family": "Oleaceae",
+    "other_names": ["Chameli"],
+    "properties": [
+      "A fragrant flower with calming effects, antioxidant properties, and skin benefits."
+    ],
+    "uses": ["Aromatherapy", "Skin care", "Stress relief"]
+  },
+  {
+    "name": "Lantana",
+    "scientific_name": "Lantana camara",
+    "family": "Verbenaceae",
+    "other_names": ["Wild sage"],
+    "properties": [
+      "An ornamental plant with antimicrobial properties, though toxic if ingested."
+    ],
+    "uses": ["Ornamental", "Antimicrobial"]
+  },
+  {
+    "name": "Lemon",
+    "scientific_name": "Citrus limon",
+    "family": "Rutaceae",
+    "other_names": ["Nimbu"],
+    "properties": [
+      "A citrus fruit rich in vitamin C, antioxidants, and digestive benefits."
+    ],
+    "uses": ["Flavoring", "Immunity booster", "Digestive health"]
+  },
+  {
+    "name": "Malabar_Nut",
+    "scientific_name": "Justicia adhatoda",
+    "family": "Acanthaceae",
+    "other_names": ["Adulsa"],
+    "properties": [
+      "A medicinal shrub effective for respiratory health and cough relief."
+    ],
+    "uses": ["Cough relief", "Respiratory health"]
+  },
+  {
+    "name": "Malabar_Spinach",
+    "scientific_name": "Basella alba",
+    "family": "Basellaceae",
+    "other_names": ["Poi"],
+    "properties": [
+      "A leafy green rich in vitamins and minerals, supporting digestion and heart health."
+    ],
+    "uses": ["Culinary uses", "Digestive health", "Heart health"]
+  },
+  {
+    "name": "Mango",
+    "scientific_name": "Mangifera indica",
+    "family": "Anacardiaceae",
+    "other_names": ["Aam"],
+    "properties": [
+      "A tropical fruit rich in vitamins, antioxidants, and digestive enzymes."
+    ],
+    "uses": ["Culinary uses", "Immunity booster", "Digestive health"]
+  },
+  {
+    "name": "Mint",
+    "scientific_name": "Mentha",
+    "family": "Lamiaceae",
+    "other_names": ["Pudina"],
+    "properties": [
+      "A refreshing herb that aids digestion, has antimicrobial effects, and relieves headaches."
+    ],
+    "uses": ["Flavoring", "Digestive aid", "Headache relief"]
+  },
+  {
+    "name": "Neem",
+    "scientific_name": "Azadirachta indica",
+    "family": "Meliaceae",
+    "other_names": ["Margosa"],
+    "properties": [
+      "A medicinal tree with antibacterial, antifungal, and blood-purifying properties."
+    ],
+    "uses": ["Skin care", "Dental care", "Blood purifier"]
+  },
+  {
+    "name": "Onion",
+    "scientific_name": "Allium cepa",
+    "family": "Amaryllidaceae",
+    "other_names": ["Pyaaz"],
+    "properties": [
+      "A pungent bulb with antioxidant, anti-inflammatory, and heart health benefits."
+    ],
+    "uses": ["Culinary uses", "Heart health", "Immunity booster"]
+  },
+  {
+    "name": "Palak(Spinach)",
+    "scientific_name": "Spinacia oleracea",
+    "family": "Amaranthaceae",
+    "other_names": ["Spinach"],
+    "properties": [
+      "A leafy green rich in iron, vitamins, and antioxidants, supporting blood health and immunity."
+    ],
+    "uses": ["Nutritional supplement", "Blood health", "Immunity booster"]
+  },
+  {
+    "name": "Papaya",
+    "scientific_name": "Carica papaya",
+    "family": "Caricaceae",
+    "other_names": ["Papita"],
+    "properties": [
+      "A tropical fruit aiding digestion, skin health, and immunity with its enzyme-rich flesh."
+    ],
+    "uses": ["Digestive health", "Skin care", "Immunity booster"]
+  },
+  {
+    "name": "Parijatha",
+    "scientific_name": "Nyctanthes arbor-tristis",
+    "family": "Oleaceae",
+    "other_names": ["Night-flowering jasmine"],
+    "properties": [
+      "A fragrant flowering plant with medicinal properties for fever, cough, and joint pain."
+    ],
+    "uses": ["Fever relief", "Cough relief", "Joint pain relief"]
+  },
+  {
+    "name": "Pomoegranate",
+    "scientific_name": "Punica granatum",
+    "family": "Lythraceae",
+    "other_names": ["Anar"],
+    "properties": [
+      "A fruit rich in antioxidants, supporting heart health, digestion, and skin glow."
+    ],
+    "uses": ["Heart health", "Digestive health", "Skin care"]
+  },
+  {
+    "name": "Pumpkin",
+    "scientific_name": "Cucurbita pepo",
+    "family": "Cucurbitaceae",
+    "other_names": ["Kaddu"],
+    "properties": [
+      "A nutrient-rich vegetable that supports eye health, digestion, and immunity."
+    ],
+    "uses": ["Eye health", "Digestive health", "Immunity booster"]
+  },
+  {
+    "name": "Rasna",
+    "scientific_name": "Pluchea lanceolata",
+    "family": "Asteraceae",
+    "other_names": ["Rasna"],
+    "properties": [
+      "An Ayurvedic herb used for joint pain, inflammation, and respiratory health."
+    ],
+    "uses": ["Joint pain relief", "Anti-inflammatory", "Respiratory health"]
+  },
+  {
+    "name": "Rose",
+    "scientific_name": "Rosa",
+    "family": "Rosaceae",
+    "other_names": ["Gulab"],
+    "properties": [
+      "A fragrant flower used in skincare, aromatherapy, and as an antioxidant."
+    ],
+    "uses": ["Skin care", "Aromatherapy", "Antioxidant"]
+  },
+  {
+    "name": "Spinach1",
+    "scientific_name": "Spinacia oleracea",
+    "family": "Amaranthaceae",
+    "other_names": ["Spinach"],
+    "properties": [
+      "A variant of spinach with similar nutritional benefits, rich in vitamins and minerals."
+    ],
+    "uses": ["Nutritional supplement", "Blood health", "Immunity booster"]
+  },
+  {
+    "name": "Tamarind",
+    "scientific_name": "Tamarindus indica",
+    "family": "Fabaceae",
+    "other_names": ["Imli"],
+    "properties": [
+      "A tangy fruit used for digestion, heart health, and as a natural laxative."
+    ],
+    "uses": ["Digestive health", "Heart health", "Laxative"]
+  },
+  {
+    "name": "Tulsi",
+    "scientific_name": "Ocimum tenuiflorum",
+    "family": "Lamiaceae",
+    "other_names": ["Holy Basil"],
+    "properties": [
+      "A sacred herb with antimicrobial, anti-inflammatory, and immunity-boosting effects."
+    ],
+    "uses": ["Immunity booster", "Respiratory health", "Stress relief"]
+  },
+  {
+    "name": "Turmeric",
+    "scientific_name": "Curcuma longa",
+    "family": "Zingiberaceae",
+    "other_names": ["Haldi"],
+    "properties": [
+      "A golden spice with anti-inflammatory, antioxidant, and healing properties."
+    ],
+    "uses": ["Anti-inflammatory", "Antioxidant", "Wound healing"]
+  },
+  {
+    "name": "ashoka",
+    "scientific_name": "Saraca asoca",
+    "family": "Fabaceae",
+    "other_names": ["Ashoka tree"],
+    "properties": [
+      "A medicinal tree used in Ayurveda for reproductive health, pain relief, and skin care."
+    ],
+    "uses": ["Reproductive health", "Pain relief", "Skin care"]
+  }
+]
