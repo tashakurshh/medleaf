@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# 🌿 MedLeaf – AI-Powered Medicinal Plant Identification  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MedLeaf is a deep learning–based system for **classifying and identifying medicinal plants from leaf images**.  
+It leverages **Xception/MobileNet** models for high accuracy and provides detailed plant information such as **scientific name, family, and medicinal uses**.  
 
-## Available Scripts
+Deployed using a **FastAPI backend** and **React frontend**, MedLeaf enables **real-time plant recognition**.  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features  
+- 🖼️ **Medicinal plant classification** from leaf images  
+- ⚡ **High accuracy** with transfer learning (Xception, MobileNet)  
+- 🌐 **End-to-end deployment** (FastAPI backend + React frontend)  
+- 📊 Shows **scientific name, family, and medicinal benefits**  
+- 🎓 Useful for **education, Ayurveda research, and agriculture**  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Project Structure  
+MedLeaf/
+│── backend/ # FastAPI backend for inference
+│── frontend/ # React web interface
+│── models/ # Trained deep learning models (Xception/MobileNet(not included in repo due to size)
+│── dataset/ # Medicinal plant dataset (not included in repo due to size)
+│── notebooks/ # Training & evaluation Jupyter notebooks
+│── requirements.txt
+│── README.md
 
-### `npm test`
+## ⚙️ Installation  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1️⃣ Clone the repository  
 
-### `npm run build`
+git clone https://github.com/yourusername/MedLeaf.git
+cd MedLeaf
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2️⃣ Create a virtual environment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3️⃣ Install dependencies
 
-### `npm run eject`
+pip install -r requirements.txt
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🚀 Usage
+🔹 Run Backend (FastAPI)
+uvicorn main:app --reload
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔹 Run Frontend (React)
+npm install
+npm start
+Then open: http://localhost:3000/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🧠 Model Training
+Preprocess dataset with image_dataset_from_directory.
+Train using Xception/MobileNet with transfer learning.
+Evaluate with metrics (accuracy, precision, recall, F1).
+Save the best model in /models.
+Training code & notebooks are inside notebooks/.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📊 Results
 
-## Learn More
+Accuracy: ~97% (Xception), ~95% (MobileNet)
+Loss: ~0.07 (Xception)
+Evaluation metrics: Precision, Recall, F1-score included
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🌿 Medicinal Plant Information
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Along with predictions, MedLeaf provides:
+1.Scientific Name
+2.Plant Family
+3.Medicinal Uses & Benefits
 
-### Code Splitting
+🛠️ Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1.Deep Learning: TensorFlow / Keras
+2.Models: Xception
+3.Backend: FastAPI
+4.Frontend: React
 
-### Analyzing the Bundle Size
+Deployment: Localhost (can be extended to cloud/Heroku/AWS)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📌 Future Enhancements
+📱 Mobile app integration
+☁️ Cloud deployment (AWS/Heroku)
+🔍 Search & filter functionality
+🌍 Multi-language support
+🤝 Contributing
 
-### Making a Progressive Web App
+Contributions are welcome! Please open an issue or submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📜 License
+This project is licensed under the MIT License.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🙌 Acknowledgements
+Medicinal Leaf Dataset
+TensorFlow & Keras Documentation
+Ayurveda & medicinal plant research articles
