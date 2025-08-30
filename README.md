@@ -65,6 +65,8 @@ Accuracy: ~97% (Xception), ~95% (MobileNet)
 Loss: ~0.07 (Xception)
 Evaluation metrics: Precision, Recall, F1-score included
 
+
+
 🌿 Medicinal Plant Information
 
 Along with predictions, MedLeaf provides:
@@ -87,6 +89,9 @@ Deployment: Localhost (can be extended to cloud/Heroku/AWS)
 🔍 Search & filter functionality
 🌍 Multi-language support
 🤝 Contributing
+
+Screenshots
+![image alt](https://github.com/tashakurshh/medleaf/blob/6468e1c0b849c97f067fba81c4405b9f1c2b96f0/leaf.png)
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
