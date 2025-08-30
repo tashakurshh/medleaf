@@ -1,0 +1,127 @@
+.hero-container {
+  display: flex;
+ min-height: 100vh;
+  max-height: auto;
+  padding: 50px;
+  color: antiquewhite;
+  width: 50%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  /* border-radius: 30px; */
+  margin-left: 4%;
+  /* margin-bottom: 30px; */
+
+  /* 🔽 Glassmorphic effect */
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: greenyellow;
+}
+
+.left-section {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.left-section h1 {
+  font-family:sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 20px 0;
+  color: greenyellow;
+}
+
+.left-section p1 {
+  font-size: 1.1rem;
+  color: antiquewhite;
+  /* margin-bottom: 20px; */
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  color: #fff;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.upload-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-btn {
+  /* background-color: black !important; */
+  border-radius: 20px !important;
+  padding: 0 60px !important;
+  height: 100px !important;
+  border: none !important;
+  background-color: antiquewhite;
+  color: #005b49 !important;
+  transition: background-image 0.3s ease !important;
+}
+
+.upload-btn:hover {
+  background-color: #005c4a !important;
+  border: none !important;
+  color: antiquewhite !important;
+  /* transform: scale(1.05); */
+}
+
+.predict-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.predict-btn {
+  border-radius: 20px !important;
+  /* padding: 0 20px !important; */
+  /* height: 40px !important; */
+  padding: 20px;
+  width: 30%;
+  background-color: antiquewhite;
+  border: none !important;
+  color: #005b49 !important;
+  transition: background-image 0.3s ease !important;
+}
+
+.predict-btn:hover {
+  background-color: #005c4a !important;
+  border: none !important;
+  color: antiquewhite !important;
+  /* transform: scale(1.05); */
+}
+
+.prediction-panel .ant-collapse-content-box {
+  background-color: antiquewhite;
+  color: #005b49;
+}
+
+.prediction-panel .ant-collapse-content-box strong {
+  color: #005b49;
+}
+
+.predictions-accordion .ant-collapse-header {
+  color: antiquewhite !important;
+  font-size: 1rem;
+  font-weight: bold;
+}

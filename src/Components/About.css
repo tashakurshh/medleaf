@@ -1,0 +1,34 @@
+.about-section {
+  background-image: linear-gradient(
+    to right,
+    #005b49,
+    #005c4a,
+    #005d4b,
+    #015f4c,
+    #01604d,
+    #2c6b52,
+    #457758,
+    #5c8260,
+    #8a9a75,
+    #b5b292,
+    #dbccb4,
+    #fbe8db
+  );
+}
+
+.about-body {
+  align-content: center;
+  /* margin: 5%; */
+  padding: 25px;
+  border-radius: 20px;
+  width: 70%;
+  margin-left: 12%;
+  height: auto;
+
+  /* 🔽 Glassmorphic effect */
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}

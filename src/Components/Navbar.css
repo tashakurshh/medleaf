@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px 50px; */
+  margin: 2%;
+  width: 25%;
+  border-radius: 30px;
+  margin-left: 37%;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+
+  /* 🔽 Glassmorphic effect */
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.menu {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  background: none;
+  border-bottom: none;
+  color: white !important;
+}
+
+.menu .ant-menu-item {
+  color: antiquewhite !important;
+  font-size: medium;
+}
+
+.menu .ant-menu-item::after {
+  border-bottom: none !important;
+}
+
+.menu .ant-menu-item:hover,
+.menu .ant-menu-item-active,
+.menu .ant-menu-item-selected {
+  color: yellowgreen !important;
+  border-bottom: 2px solid yellowgreen !important;
+  font-weight: bold;
+}
